@@ -76,43 +76,65 @@ export default function TácGiảCard() {
             <div className="text-xs font-bold text-slate-400 mb-3 uppercase tracking-wider">
               Kết nối trực tiếp qua các kênh truyền thông chính thức:
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
-              {/* Youtube */}
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
+              {/* Zalo Cá Nhân */}
               <a
-                href="https://youtube.com/@nguyennambdstuyendung?si=AAwDKLGxxYzugdjY"
+                href="http://zlcn.nambds.vn/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 p-2 bg-slate-900 hover:bg-slate-800/80 border border-slate-800 rounded-xl text-[11px] text-slate-200 transition-colors cursor-pointer font-medium hover:text-white"
               >
-                <Youtube className="w-4 h-4 text-red-500 shrink-0" />
-                <span className="truncate">Youtube Nam BĐS</span>
+                <MessageCircle className="w-4 h-4 text-blue-400 shrink-0" />
+                <span className="truncate">Zalo Cá Nhân</span>
               </a>
 
-              {/* Tiktok */}
+              {/* Facebook Cá Nhân */}
               <a
-                href="https://www.tiktok.com/@namtuyendung?_r=1&_t=ZS-93Q3PmFDmbM"
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center gap-2 p-2 bg-slate-900 hover:bg-slate-800/80 border border-slate-800 rounded-xl text-[11px] text-slate-200 transition-colors cursor-pointer font-medium hover:text-white"
-              >
-                <span className="w-4 h-4 bg-white text-black font-black text-[9px] rounded-full flex items-center justify-center shrink-0">🎵</span>
-                <span className="truncate">Tiktok Nam Tuyển Dụng</span>
-              </a>
-
-              {/* Facebook */}
-              <a
-                href="https://www.facebook.com/share/1ECmmf8ipx/?mibextid=wwXIfr"
+                href="http://fbcn.nambds.vn/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 p-2 bg-slate-900 hover:bg-slate-800/80 border border-slate-800 rounded-xl text-[11px] text-slate-200 transition-colors cursor-pointer font-medium hover:text-white"
               >
                 <Facebook className="w-4 h-4 text-blue-500 shrink-0" />
-                <span className="truncate">Facebook Nam BĐS</span>
+                <span className="truncate">Facebook Cá Nhân</span>
+              </a>
+
+              {/* Fanpage */}
+              <a
+                href="https://page.nambds.vn/"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-2 p-2 bg-slate-900 hover:bg-slate-800/80 border border-slate-800 rounded-xl text-[11px] text-slate-200 transition-colors cursor-pointer font-medium hover:text-white"
+              >
+                <Facebook className="w-4 h-4 text-sky-400 shrink-0" />
+                <span className="truncate">Fanpage Facebook</span>
+              </a>
+
+              {/* Youtube */}
+              <a
+                href="https://youtube.nambds.vn/"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-2 p-2 bg-slate-900 hover:bg-slate-800/80 border border-slate-800 rounded-xl text-[11px] text-slate-200 transition-colors cursor-pointer font-medium hover:text-white"
+              >
+                <Youtube className="w-4 h-4 text-red-500 shrink-0" />
+                <span className="truncate">Kênh YouTube</span>
+              </a>
+
+              {/* Tiktok */}
+              <a
+                href="https://tiktok.nambds.vn"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-2 p-2 bg-slate-900 hover:bg-slate-800/80 border border-slate-800 rounded-xl text-[11px] text-slate-200 transition-colors cursor-pointer font-medium hover:text-white"
+              >
+                <span className="w-4 h-4 bg-white text-black font-black text-[9px] rounded-full flex items-center justify-center shrink-0">🎵</span>
+                <span className="truncate">TikTok Nam BĐS</span>
               </a>
 
               {/* Website */}
               <a
-                href="https://nambds.vn/"
+                href="http://nambds.vn"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 p-2 bg-slate-900 hover:bg-slate-800/80 border border-slate-800 rounded-xl text-[11px] text-slate-200 transition-colors cursor-pointer font-medium hover:text-white"

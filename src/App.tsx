@@ -514,13 +514,17 @@ export default function App() {
             </div>
 
             <div className="flex flex-wrap gap-4 text-slate-400 font-semibold font-mono">
-              <a href="https://nambds.vn/" target="_blank" rel="noreferrer" className="hover:text-brand-gold-300 transition-colors">Trang Chủ</a>
+              <a href="http://nambds.vn" target="_blank" rel="noreferrer" className="hover:text-brand-gold-300 transition-colors">Trang Chủ</a>
               <span className="text-slate-800">•</span>
-              <a href="https://youtube.com/@nguyennambdstuyendung?si=AAwDKLGxxYzugdjY" target="_blank" rel="noreferrer" className="hover:text-brand-gold-300 transition-colors">Youtube</a>
+              <a href="http://zlcn.nambds.vn/" target="_blank" rel="noreferrer" className="hover:text-brand-gold-300 transition-colors">Zalo Cá Nhân</a>
               <span className="text-slate-800">•</span>
-              <a href="https://www.tiktok.com/@namtuyendung?_r=1&_t=ZS-93Q3PmFDmbM" target="_blank" rel="noreferrer" className="hover:text-brand-gold-300 transition-colors">TikTok</a>
+              <a href="http://fbcn.nambds.vn/" target="_blank" rel="noreferrer" className="hover:text-brand-gold-300 transition-colors">Facebook Cá Nhân</a>
               <span className="text-slate-800">•</span>
-              <a href="https://www.facebook.com/share/1ECmmf8ipx/?mibextid=wwXIfr" target="_blank" rel="noreferrer" className="hover:text-brand-gold-300 transition-colors">Facebook</a>
+              <a href="https://page.nambds.vn/" target="_blank" rel="noreferrer" className="hover:text-brand-gold-300 transition-colors">Fanpage</a>
+              <span className="text-slate-800">•</span>
+              <a href="https://youtube.nambds.vn/" target="_blank" rel="noreferrer" className="hover:text-brand-gold-300 transition-colors">YouTube</a>
+              <span className="text-slate-800">•</span>
+              <a href="https://tiktok.nambds.vn" target="_blank" rel="noreferrer" className="hover:text-brand-gold-300 transition-colors">TikTok</a>
             </div>
 
           </div>
